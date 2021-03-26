@@ -4,6 +4,6 @@ dic3={5:50,6:60}
 dic2.update(dict3)
 for key in dic2:
     if key in dic1:
-        dic2[key]=dic2[key]+dic1
-dic1.upadate(dic2)
+        dic2[key]=dic2[key]+dic1[key]
+dic1.update(dic2)
 print(dic1)
