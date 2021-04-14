@@ -16,10 +16,10 @@ for key in my_dict:
             max1=my_dict[key]
             c=key
         elif max1>my_dict[value] and max2<my_dict[value]:
-            max2=my_dict[value]
+            max2=my_dict[key]
             d=key
         elif max2>my_dict[value] and max3<my_dict[value]:
-            max3=my_dict[value]
+            max3=my_dict[key]
             e=key
 list.append(c)
 list.append(d)
